@@ -36,7 +36,7 @@ foreach (scandir($path_to_annotations) as $file){
             echo "Some Error in Upload\n";
         }
         else{
-            print_r(json_decode($result->raw_body, True)['result']);
+            print_r(json_decode($result->raw_body, True));
         }
     }
 }

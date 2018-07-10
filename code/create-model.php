@@ -16,12 +16,13 @@ $context = stream_context_create(array(
 ));
 $result = file_get_contents($url, false, $context);
 if ($result === FALSE) {
-    echo "Please Check Your API Key. Make sure you have run : \n export NANONETS_API_KEY=YOUR_API_KEY_GOES_HERE \n";
+    echo "Please Check Your API Key. Make sure you have run : export NANONETS_API_KEY=YOUR_API_KEY_GOES_HERE \n";
 }
 else{
     $model_id = json_decode($result)->model_id;
-    echo "NEXT RUN: export NANONETS_MODEL_ID=".$model_id.'\n';
-    echo "THEN RUN: php ./code/upload-training.php\n";
+    echo "\n\nNEXT RUN: export NANONETS_MODEL_ID=".$model_id;
+    echo "\nTHEN RUN: php ./code/upload-training.php  \n";
+    echo "\n";
 }
 
 ?>

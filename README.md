@@ -28,7 +28,7 @@ Annotations are present for each frame and have the same name as the image name.
  
 ### Step 1: Clone the Repo
 ```bash
-git clone https://github.com/NanoNets/object-detection-sample-python.git
+git clone https://github.com/NanoNets/object-detection-sample-php.git
 cd object-detection-sample-php
 ```
 

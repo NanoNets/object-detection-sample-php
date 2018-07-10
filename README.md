@@ -32,6 +32,13 @@ git clone https://github.com/NanoNets/object-detection-sample-php.git
 cd object-detection-sample-php
 ```
 
+Need to install php5-cli and php-curl:
+Here are the command to do same on Ubuntu
+```bash
+sudo apt-get install php5-cli
+sudo apt-get install php5-curl
+```
+
 ### Step 2: Get your free API Key
 Get your free API Key from http://app.nanonets.com/user/api_key
 

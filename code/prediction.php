@@ -1,5 +1,5 @@
 <?php
-require_once './unirest-php/src/Unirest.php';
+require_once './src/Unirest.php';
 $api_key = getenv('NANONETS_API_KEY');
 $model_id = getenv('NANONETS_MODEL_ID');
 $url = 'https://app.nanonets.com/api/v2/ObjectDetection/Model/'. $model_id . '/LabelFile/';

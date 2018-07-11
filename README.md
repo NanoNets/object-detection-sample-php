@@ -35,8 +35,19 @@ cd object-detection-sample-php
 Need to install php5-cli and php-curl:
 Here are the command to do same on Ubuntu
 ```bash
+sudo apt-get install php<version>-cli
+sudo apt-get install php<version>-curl
+```
+
+for PHP5
+```bash
 sudo apt-get install php5-cli
 sudo apt-get install php5-curl
+```
+for PHP7
+```bash
+sudo apt-get install php7.0-cli
+sudo apt-get install php7.0-curl
 ```
 
 ### Step 2: Get your free API Key
